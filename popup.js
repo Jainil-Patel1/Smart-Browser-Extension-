@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         messageElement.innerHTML = message;
       } else if (visitInfo.count > 0) {
         let lastVisitDate = new Date(visitInfo.lastVisit);
-        let message = `You have visited this site ${visitInfo.count} times.<br>`;
+        let message = `You have this site ${visitInfo.count} times.<br>`;
         message += `Current visit on ${lastVisitDate.toLocaleString()}.`;
 
         messageElement.innerHTML = message;
